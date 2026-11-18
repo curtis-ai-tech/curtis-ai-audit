@@ -48,7 +48,7 @@ function renderAbout(setting: Setting, version: string): void {
 
   const author = wrap.createEl("p", { cls: "curtis-audit-about-desc" });
   author.appendText("By ");
-  const link = author.createEl("a", { href: "https://github.com/JordanNewell/curtis-ai-audit" });
+  const link = author.createEl("a", { href: "https://github.com/curtis-ai-tech/curtis-ai-audit" });
   link.setText("Jordan Newell");
 
   // Author brand mark, pinned to the footer's bottom-right corner (CSS).
